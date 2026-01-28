@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Novo Site</title>
+
+    <!-- CSS básico embutido -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: #e5e7eb;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: #020617;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        main {
+            flex: 1;
+            padding: 40px;
+            text-align: center;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            background: #2563eb;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            background: #020617;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu Novo Site 🚀</h1>
+        <p>Estrutura inicial</p>
+    </header>
+
+    <main>
+        <h2>Olá mundo</h2>
+        <p>Esse é só o ponto de partida.</p>
+
+        <button onclick="acaoBotao()">Clique aqui</button>
+    </main>
+
+    <footer>
+        © 2026 - Projeto em construção
+    </footer>
+
+    <!-- JS básico embutido -->
+    <script>
+        function acaoBotao() {
+            alert("JS funcionando 👌");
+            console.log("Botão clicado");
+        }
+    </script>
+
+</body>
+</html>
